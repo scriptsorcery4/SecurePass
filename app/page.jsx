@@ -18,6 +18,7 @@ export default function Home() {
         </div>
         <div className="flex md:flex-row gap-14 flex-col items-center">
           <div className="basis-1/2 flex flex-col gap-2">
+          <a href="https://www.producthunt.com/posts/securepass?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-securepass" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=489354&theme=neutral" alt="SecurePass - Create&#0032;a&#0032;Strong&#0032;Password&#0032;in&#0032;an&#0032;Instant&#0033; | Product Hunt" width="230" height="54" className="pb-4 -mt-4" /></a>
             <h1 className="md:text-4xl text-3xl font-black">
               Create a Strong Password in an Instant!
             </h1>
