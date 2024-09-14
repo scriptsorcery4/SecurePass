@@ -10,7 +10,11 @@ export default function Home() {
             <Image src={"/icon.png"} width={48} height={48} />
             <h1 className="text-xl font-bold">SecurePass</h1>
           </div>
-          <button className="btn btn-secondary">TRY NOW</button>
+          <div className="gap-2 flex">
+            <a target="_blank" href="https://ko-fi.com/scriptsorcery4" className="btn btn-ghost">DONATE</a>
+            <Link href='/app' className="btn btn-secondary">TRY NOW</Link>
+          </div>
+         
         </div>
         <div className="flex md:flex-row gap-14 flex-col items-center">
           <div className="basis-1/2 flex flex-col gap-2">
